@@ -15,10 +15,11 @@ let output = myFunction(angka1, angka2);
 console.log(output);
 
 // no 3
-Hello = () =>{
+let Hello = () =>{
     return "Hello"
 }
-console.log(Hello);
+let out = Hello();
+console.log(out);
 
 // no 4
 let obj = {
@@ -64,3 +65,5 @@ let buah = [{
 
 let berbiji = buah.filter((buah) => buah.adaBiji != 'ada');
 console.log(berbiji);
+let nama = ["nanas","jeruk","semangka","pisang"];
+console.log(nama.sort());
